@@ -6,19 +6,23 @@ public class WinterreifenpflichtDemo {
         int temperatur = 5;
         boolean rutschigeFahrbahn = true;
         //hello
-
+        if(wrpflicht(temperatur,rutschigeFahrbahn)){
+            System.out.println("Bitte Winterreifen verwenden");
+        }else{
+            System.out.println("Es sind keine Winterreifen notwendig");
+        }
         System.out.println(wrpflicht(temperatur, rutschigeFahrbahn));
     }
 
-    public static String wrpflicht(int temperatur, boolean Fahrbahn) {
+    public static boolean wrpflicht(int temperatur, boolean Fahrbahn) {
         if (temperatur<10) {
             if (Fahrbahn) {
-                return "Bitte Winterreifen verwenden";
+                return true;
             }
             if (temperatur < 4) {
-                return "Bitte Winterreifen verwenden";
+                return true;
             }
         }
-        return "Winterreifen sind nicht erforderlich";
+        return false;
     }
 }
