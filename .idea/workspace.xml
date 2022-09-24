@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="057db205-c6c0-4d02-bf5a-a82f892694dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Uebung_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NotenDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WinterreifenpflichtDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="057db205-c6c0-4d02-bf5a-a82f892694dc" name="Changes" comment="Innitial Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +64,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664032842857</updated>
     </task>
+    <task id="LOCAL-00001" summary="Innitial Commit">
+      <created>1664033711818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664033711818</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Innitial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Innitial Commit" />
   </component>
 </project>
